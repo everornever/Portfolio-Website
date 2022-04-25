@@ -1,6 +1,6 @@
 # React Test Website
 It is not my main website and was only a small project I did for university.
-It was build using Firebase as a database for the user login, React as a base for the website and every components where wirtten in CSS manuely.
+It was build using Firebase as a database for the user login, React as a base for the website and every components where wirtten in CSS vanilla.
 
 
 ## Packages:
