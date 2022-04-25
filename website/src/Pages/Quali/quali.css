@@ -1,0 +1,103 @@
+/*==================== QUALIFICATION ====================*/
+.qu_taps {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2);
+}
+
+.qu_button {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+}
+
+.qu_button:hover {
+  color: var(--first-color);
+}
+
+.qu_icon {
+  font-size: 1.8rem;
+  margin-right: var(--mb-0-25);
+}
+
+.qu_data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 2.5rem;
+}
+
+.qu_title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.qu_subtitle {
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.qu_calendar {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.qu_rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+.qu_line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--first-color);
+  transform: translate(6px, -7px);
+}
+
+.qu [data-content] {
+  display: none;
+}
+
+.qu_active[data-content] {
+  display: block;
+}
+
+.qu_button.qu_active {
+  color: var(--first-color);
+}
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .qu_date {
+    gap: 0.5rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 568px) {
+  .qu_section {
+    display: grid;
+    grid-template-columns: 0.6fr;
+    justify-content: center;
+  }
+}
+
+/* For normal devices */
+@media screen and (min-width: 768px) {
+  .qu_tabs {
+    justify-content: center;
+  }
+
+  .qu_button {
+    margin: 0 var(--mb-1);
+  }
+
+  .qu_sections {
+    grid-template-columns: 0.5fr;
+  }
+}
