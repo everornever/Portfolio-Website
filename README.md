@@ -1,14 +1,7 @@
-# Portfolio Website G15
+# React Test Website
+It is not my main website and was only a small project I did for university.
+It was build using Firebase as a database for the user login, React as a base for the website and every components where wirtten in CSS manuely.
 
-Diese Seite wurde von Leon Kling S0561099 gebaut.
-Leider hat sich mein Team gegen Ende des Semesters aufgelöst, somit musste ich die Seite alleine bauen. 
-Ich hatte mich zu dem Zeitpunkt auf das Frontend konzentiret, deswgen gibt es weniger Backend Funktionen.
-
-Die Seite wird hier gehostet: http://141.45.92.191/g15
-User: g15
-Passwort: Fjtg7.3vfnTUqP
-
-Leider gibt es ein Problem mit meinem Build, somit wird die Seite nicht richtig angezeigt. Ich weiß leider nicht warum das ist aber ich denke es liegt an meinem Einstigspunkt und dem React-Router-DOM. 
 
 ## Packages:
 
@@ -17,13 +10,11 @@ Leider gibt es ein Problem mit meinem Build, somit wird die Seite nicht richtig 
 - react-router-dom
 - firebase --save
 
-## Content:
-
 # Login
-Die Login Page ist der Einstigspunkt für die Website.
-Im Backend wird eine über eine Firebase Auth. der User überprüft.
-Ich habe einen Dummy Account angelegt um sich einzuloggen.
-Die Seite ist vollkommen responsive und hat eine kleine Einstigsanimation.
+The login page is the entry point for the website.
+In the backend the user is checked via a Firebase Auth.
+I created a dummy account to log in.
+The page is fully responsive and has a small login animation.
 
 **Login-Daten:**
 
@@ -32,13 +23,12 @@ Die Seite ist vollkommen responsive und hat eine kleine Einstigsanimation.
 **Passwort:** passwort
 
 ![Alt](/Assets/Login.png?raw=true "Optional Title")
-![Alt](/Assets/Firebase.png?raw=true "Optional Title")
 
 # Website
-Die Website wurde vollkommen mit React und React Route DOM erstellt und mit vanilla CSS gestalltet.
-Es gibt mehrere Sections wie #About oder #Skills
-Die Seite ist in 3-Stufen responisve (Large, Med, small). Die Navigationsleiste passt sich ebenfalls an und wandert in Mobile nach unten.
-Ein Darkmode kann verwendet werden und passt alle Farben an. (Leider Buggy, deswegen deaktiviert)
+The website was built entirely with React and React Route DOM and designed with vanilla CSS.
+There are several sections like #About or #Skills.
+The site is responsive in 3 levels (Large, Med, small). The navigation bar also adapts and moves down in mobile.
+A darkmode can be used and adjusts all colors. (Unfortunately buggy, therefore deactivated)
 
 ![Alt](/Assets/HomeLight.png?raw=true "Optional Title")
 ![Alt](/Assets/Home2Light.png?raw=true "Optional Title")
